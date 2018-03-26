@@ -62,7 +62,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="valign" val="base"/>
     </tool>
   </lib>
-  <lib desc="file#C:\Users\Lukasz\Desktop\7400-lib.circ" name="7"/>
+  <lib desc="file#7400-lib.circ" name="7"/>
   <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -209,46 +209,46 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(180,130)" to="(180,190)"/>
     <wire from="(180,330)" to="(180,390)"/>
     <wire from="(90,300)" to="(220,300)"/>
-    <comp lib="1" loc="(140,360)" name="NOT Gate"/>
     <comp lib="1" loc="(160,130)" name="NOT Gate"/>
-    <comp lib="7" loc="(540,330)" name="7474"/>
-    <comp lib="0" loc="(30,300)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="D"/>
-    </comp>
     <comp lib="1" loc="(280,310)" name="NAND Gate"/>
+    <comp lib="1" loc="(280,180)" name="NAND Gate"/>
+    <comp lib="1" loc="(400,150)" name="NAND Gate"/>
+    <comp lib="5" loc="(530,450)" name="LED"/>
+    <comp lib="1" loc="(280,380)" name="NAND Gate"/>
+    <comp lib="0" loc="(30,210)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A"/>
+    </comp>
+    <comp lib="7" loc="(540,330)" name="7474"/>
+    <comp lib="1" loc="(140,360)" name="NOT Gate"/>
     <comp lib="5" loc="(530,250)" name="LED"/>
-    <comp lib="0" loc="(610,110)" name="Power"/>
-    <comp lib="0" loc="(610,310)" name="Power"/>
+    <comp lib="0" loc="(510,80)" name="Ground">
+      <a name="facing" val="north"/>
+    </comp>
     <comp lib="0" loc="(30,270)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="C"/>
     </comp>
-    <comp lib="0" loc="(510,80)" name="Ground">
+    <comp lib="1" loc="(280,110)" name="NAND Gate"/>
+    <comp lib="0" loc="(30,300)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="D"/>
+    </comp>
+    <comp lib="1" loc="(140,160)" name="NOT Gate"/>
+    <comp lib="1" loc="(160,330)" name="NOT Gate"/>
+    <comp lib="5" loc="(440,190)" name="LED"/>
+    <comp lib="7" loc="(540,130)" name="7474"/>
+    <comp lib="0" loc="(610,110)" name="Power"/>
+    <comp lib="0" loc="(510,280)" name="Ground">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="7" loc="(540,130)" name="7474"/>
-    <comp lib="1" loc="(280,380)" name="NAND Gate"/>
-    <comp lib="1" loc="(160,330)" name="NOT Gate"/>
+    <comp lib="0" loc="(610,310)" name="Power"/>
     <comp lib="5" loc="(440,390)" name="LED"/>
-    <comp lib="1" loc="(400,150)" name="NAND Gate"/>
-    <comp lib="1" loc="(280,180)" name="NAND Gate"/>
-    <comp lib="1" loc="(280,110)" name="NAND Gate"/>
+    <comp lib="1" loc="(280,450)" name="NAND Gate"/>
     <comp lib="1" loc="(400,350)" name="NAND Gate"/>
     <comp lib="0" loc="(30,240)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="B"/>
     </comp>
-    <comp lib="0" loc="(30,210)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A"/>
-    </comp>
-    <comp lib="1" loc="(140,160)" name="NOT Gate"/>
-    <comp lib="0" loc="(510,280)" name="Ground">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="5" loc="(440,190)" name="LED"/>
-    <comp lib="1" loc="(280,450)" name="NAND Gate"/>
-    <comp lib="5" loc="(530,450)" name="LED"/>
   </circuit>
 </project>
